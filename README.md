@@ -1,44 +1,48 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# VUTTR - Very Useful Tools To Remmember
+> This project was made for the [Bossabox's](https://bossabox.com/) *Frontend* [challenge](https://www.notion.so/Front-end-c12adcdbe7a1425dbfbcd5a397b4ff10)
 
-## Available Scripts
+<p align="center">
+  <a href="#rocket-why">Why</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#package-used-technologies">Used technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#computer-getting-started">Getting started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+</p>
 
-In the project directory, you can run:
+<div align="center">
+  <img alt="GoFinances Dashboard" src="./assets/vuttr.gif" />
+</div>
 
-### `yarn start`
+## :rocket: Why
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+I've decided to work on this challenge as a way to go for a *hands-on*  on a "real world" project.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## :package: Used technologies
 
-### `yarn test`
+This application was built using `npx create-react-app` with the `--template=typescript` flag to set the *Typescript* stuff.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* [axios](https://github.com/axios/axios): Promise based HTTP client for the browser and node.js
+* [styled-components](https://github.com/styled-components/styled-components): Visual primitives for the component age. Use the best bits of ES6 and CSS to style your apps without stress :nail_care:
+* [polished](https://github.com/styled-components/polished): A lightweight toolset for writing styles in JavaScript
+* [react-icons](https://github.com/react-icons/react-icons): SVG react icons of popular icon packs
+* [React Hooks](https://reactjs.org/docs/hooks-intro.html): Using state and other React features without writing a class
+* [unform](https://unform.dev/): Unform is a performance focused library that helps you creating beautiful forms in React with the power of uncontrolled components performance and React Hooks.
 
-### `yarn build`
+## :computer: Getting started
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Clone the [backend](https://gitlab.com/bossabox/challenge-fake-api/tree/master) and follow its steps to get it ready and running and then proceed to this repository steps.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+- Clone this repository
+- Run `yarn` in the root folder to install all needed dependencies and get ready to use this app.
+- After that, you just need to run `yarn start` *et voilà!* You're ready to play this app.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Todo:
+- Add tool form
+  - Add form validation
+  - Change description input to `<textarea />` instead of `input`
+  - Add loading indicator on form submit
+- Remove tool modal
+  - Add loading indicator on confirm remove
+- Enhancements
+  - Replace the icon on search input with a loading indicator when querying
+  - Add debounce on search input and tags only checkbox
 
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Made with 💜 by [Pedro Fagundes](https://github.com/pedrofagundes)
